@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Attendance System</h1>
+        
+        <div class="attendance">
+            <button onclick="markAttendance('Present')" class="btn present">Mark Present</button>
+            <button onclick="markAttendance('Absent')" class="btn absent">Mark Absent</button>
+        </div>
+
+        <div class="status">
+            <h2>Status: <span id="attendance-status">Not Marked</span></h2>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 Attendance System</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
